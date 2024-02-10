@@ -1,0 +1,55 @@
+.Section3 {
+  margin-top: 50px;
+}
+.Section3 .third {
+  background-image: url("./img/Rectangle 102.png");
+  background-repeat: no-repeat;
+  height: auto;
+  padding: 50px;
+}
+.Section3 .third .section3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #1A0B5B;
+  font-family: "Josefin-sans sans-serif";
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 70px;
+  margin-top: 40px;
+}
+.Section3 .third .sectionButton {
+  text-align: center;
+}
+.Section3 .third .sectionButton button {
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+  background-color: #FB2E86;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 950px) {
+  .Section3 .section3 {
+    color: white;
+  }
+}
+@media (min-width: 300px) and (max-width: 500px) {
+  .Section3 .third .section3 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 300px) {
+  .Section3 .third .section3 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: -10px;
+  }
+}/*# sourceMappingURL=Section3.css.map */

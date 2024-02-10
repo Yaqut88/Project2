@@ -1,0 +1,36 @@
+.Blog {
+  margin-top: 50px;
+}
+.Blog .title {
+  text-align: center;
+  color: #1A0B5B;
+  font-family: "Josefin-Sans sans-serif";
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 50px;
+}
+.Blog .container .row .card {
+  margin: 20px;
+}
+.Blog .container .row .card .card-body .date span {
+  margin-left: 50px;
+  color: #151875;
+}
+.Blog .container .row .card .card-body .card-title {
+  margin-top: 20px;
+  color: #151875;
+}
+.Blog .container .row .card .card-body .second {
+  color: #FB2E86;
+}
+.Blog .container .row .card .card-body .card-text {
+  color: #72718F;
+  font-size: 16px;
+}
+.Blog .container .row .card .card-body a {
+  color: #151875;
+  font-size: 16px;
+}
+.Blog .container .row .card .card-body .secondA {
+  color: #FB2E86;
+}/*# sourceMappingURL=Blog.css.map */

@@ -1,0 +1,208 @@
+.Products {
+    gap: 30px;
+    margin-top: 40px;
+
+    .title {
+        text-align: center;
+        color: #1A0B5B;
+        font-family: 'Josefin-sans sans-serif';
+        font-weight: 900;
+        font-size: 42px;
+        line-height: 42px;
+    }
+
+    .container {
+        margin-top: 40px;
+
+        .row {
+            .cardSection {
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+            }
+
+            .img {
+                padding: 40px;
+                background-color: #F5F6F8;
+                text-align: center;
+
+                img {
+                    background-color: #F5F6F8;
+                }
+            }
+
+            .sofaName {
+                text-align: center;
+                color: #151875;
+                font-size: 16px;
+                font-weight: 700;
+                font-family: 'Lato';
+
+            }
+
+            .sofaPrice {
+                text-align: center;
+
+                .firstPrice {
+                    color: #151875;
+                    font-size: 14px;
+                    line-height: 16px;
+                    font-family: 'Josefin-sans sans-serif';
+                    font-weight: 600;
+                }
+
+                .secondPrice {
+                    color: #1518754D;
+                    font-size: 12px;
+                    margin-left: 10px;
+                    text-decoration: line-through;
+                    font-family: 'Josefin-sans sans-serif';
+                }
+            }
+        }
+
+        .trendingProducts {
+            .firstSection {
+                color: #31208A0D;
+                background-color: #FFF6FB;
+
+                .allProducts {
+                    margin-top: 30px;
+                    span {
+                        color: #151875;
+                        font-size: 26px;
+                        text-align: center;
+                        font-family: 'Josefin-sans sans-serif';
+                        font-weight: 700;
+                    }
+                    a {
+                        color: #FB2E86;
+                        font-size: 16px;
+                        font-weight: 600;
+                        text-align: center;
+                        font-family: 'Josefin-sans sans-serif';
+                    }
+                   
+    
+                }
+img{
+    margin-left: 100px;
+}
+                }
+            }
+
+            .secondSection {
+                background-color: #EEEFFB;
+                margin-left: 20px;
+                .allProducts {
+                    margin-top: 30px;
+                    span {
+                        color: #151875;
+                        font-size: 26px;
+                        text-align: center;
+                        font-family: 'Josefin-sans sans-serif';
+                        font-weight: 700;
+                    }
+                    a {
+                        color: #FB2E86;
+                        font-size: 16px;
+                        font-weight: 600;
+                        text-align: center;
+                        font-family: 'Josefin-sans sans-serif';
+                    }
+                   
+    
+                }
+                img {
+                    margin-top: 80px;
+                    margin-left: 40px;
+                }
+
+            }
+
+            .thirdSection {
+                margin-left: 70px;
+
+                .d-flex {
+                    margin-bottom: 25px;
+
+                    .chair {
+                        background-color: #F5F6F8;
+                        padding: 10px;
+                    }
+
+                    .chairName {
+                        font-size: 18px;
+                        color: #151875;
+                        font-family: 'Josefin-sans sans-serif';
+                        font-weight: 700;
+                        margin-left: 10px;
+                    }
+
+                    .chairPrice {
+                        font-size: 14px;
+                        color: #151875;
+                        font-family: 'Josefin-sans sans-serif';
+                        text-decoration: line-through;
+                        margin-left: 10px;
+
+                    }
+                }
+            }
+
+          
+        }
+    }
+
+    @media(max-width:300px){
+        .Products{
+            .container{
+                .trendingProducts{
+                    .firstSection{
+img{
+    margin-left: 0px;
+}
+                    }
+                    .secondSection{
+
+                    }
+                    .thirdSection{
+
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: 300px) and (max-width: 500px) {
+        .Products{
+            .container{
+                .trendingProducts{
+                    .firstSection{
+img{
+    margin-left: 0px;
+}
+                    }
+                    .secondSection{
+margin-left: 0px;
+img{
+    margin-left: 0px;
+}
+                    }
+                    .thirdSection{
+margin-left: 0px;
+                    }
+                }
+            }
+        }
+    }
+     
+    @media (min-width: 501px) and (max-width: 700px) {
+      
+    }
+    @media (min-width: 701px) and (max-width: 900px) {
+      
+    }
+     
+    @media (min-width: 901px) and (max-width: 1100px) {
+      
+    }
+    

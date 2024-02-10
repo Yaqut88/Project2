@@ -1,0 +1,69 @@
+.Breadcrumb {
+  margin-bottom: 50px;
+  background-color: #F6F5FF;
+  height: 250px;
+  margin-top: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.Breadcrumb .title {
+  color: #1A0B5B;
+  font-family: "Josefin-sans sans-serif";
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 42px;
+  padding: 30px;
+}
+.Breadcrumb .breadcrumbItems {
+  padding-left: 35px;
+}
+.Breadcrumb .breadcrumbItems a {
+  text-decoration: none;
+  color: #000000;
+}
+.Breadcrumb .breadcrumbItems .active {
+  color: #FB2E86;
+}
+
+.shopSection .title p {
+  color: #151875;
+  font-family: "Josefin-sans sans-serif";
+  font-weight: 700;
+  font-size: 22px;
+  font-weight: 25px;
+}
+.shopSection .title span {
+  color: #8A8FB9;
+  font-size: 12px;
+  font-family: "Lato";
+}
+.shopSection .row {
+  box-shadow: 0px 0px 25px 5px rgba(246, 246, 253, 0.5019607843);
+  margin-bottom: 30px;
+}
+.shopSection .row .shopSectionRight .shopTitle p {
+  color: #111C85;
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 700;
+}
+.shopSection .row .shopSectionRight .price {
+  display: flex;
+  flex-direction: row;
+}
+.shopSection .row .shopSectionRight .price .shopPrice1 {
+  color: #151875;
+  margin-right: 15px;
+}
+.shopSection .row .shopSectionRight .price .shopPrice2 {
+  color: #FB2448;
+  text-decoration: line-through;
+}
+.shopSection .row .shopSectionRight .price .starItems ul {
+  display: flex;
+}
+.shopSection .row .shopSectionRight .ShopInformation p {
+  color: #9295AA;
+  font-size: 17px;
+  line-height: 30px;
+}/*# sourceMappingURL=ShopList.css.map */

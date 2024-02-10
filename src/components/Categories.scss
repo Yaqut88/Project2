@@ -1,0 +1,66 @@
+.Categories {
+    .title {
+      text-align: center;
+        color: #1A0B5B;
+        font-family: 'Josefin-sans sans-serif';
+        font-weight: 900;
+        font-size: 42px;
+        line-height: 42px;
+    }
+  
+    .slickSlider{
+      padding: 40px;
+      .sliders{
+          padding: 10px;
+          .slider{
+           
+             padding: 10px;
+              .introSlider{
+                .img{
+                    background-color: #F6F7FB;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    padding:  40px;
+                    border-radius: 130px;
+
+                }
+                .card-section{
+                    padding: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 15px;
+                    .code{
+                        color: #151875;
+                        font-family: 'Josefin-sans sans-serif';
+                        font-size: 20px;
+                        line-height: 23px;
+                    }
+                    .price{
+                        color: #151875;
+                        font-family: 'Josefin-sans sans-serif';
+                        font-size: 16px;
+                        line-height: 19px;
+                    }
+                }
+              }
+            
+          }
+      }
+    }
+  }
+  @media (min-width: 300px) and (max-width: 500px) {
+    
+  }
+   
+  @media (min-width: 501px) and (max-width: 700px) {
+    
+  }
+  @media (min-width: 701px) and (max-width: 900px) {
+    
+  }
+   
+  @media (min-width: 901px) and (max-width: 1100px) {
+    
+  }

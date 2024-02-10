@@ -1,0 +1,33 @@
+.Image {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.Image .container .row .FooterBottomImage {
+  text-align: center;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  .FooterBottomImage img {
+    width: 300px;
+  }
+}
+@media (min-width: 501px) and (max-width: 700px) {
+  .FooterBottomImage img {
+    width: 450px;
+  }
+}
+@media (min-width: 701px) and (max-width: 900px) {
+  .FooterBottomImage img {
+    width: 500px;
+  }
+}
+@media (min-width: 901px) and (max-width: 1100px) {
+  .FooterBottomImage img {
+    width: 750px;
+  }
+}
+@media (max-width: 300px) {
+  .FooterBottomImage img {
+    width: 200px;
+  }
+}/*# sourceMappingURL=Image.css.map */

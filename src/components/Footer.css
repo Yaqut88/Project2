@@ -1,0 +1,36 @@
+.Footer {
+  background-color: #EEEFFB;
+}
+.Footer .container {
+  padding-top: 30px;
+}
+.Footer .container .footerTop .footer1 h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+}
+.Footer .container .footerTop .footer1 input {
+  width: 240px;
+  height: 39px;
+  border-radius: 3px;
+  border: none;
+  color: #8A8FB9;
+  background-color: #FFFFFF;
+}
+.Footer .container .footerTop .footer1 button {
+  background-color: #FB2E86;
+  color: #EEEFFB;
+  border: none;
+  outline: none;
+  width: 135px;
+  height: 39px;
+  border-radius: 3px;
+}
+.Footer .container .footerTop .footer1 span {
+  color: #8A8FB9;
+}
+.Footer .container .footerTop .footer2 h3, .Footer .container .footerTop .footer3 h3, .Footer .container .footerTop .footer4 h3 {
+  font-family: "Josefin Sans", sans-serif;
+}
+.Footer .container .footerTop .footer2 p, .Footer .container .footerTop .footer3 p, .Footer .container .footerTop .footer4 p {
+  color: #8A8FB9;
+}/*# sourceMappingURL=Footer.css.map */

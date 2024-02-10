@@ -1,0 +1,40 @@
+.sectionProducts .title {
+  text-align: center;
+  color: #1A0B5B;
+  font-family: "Josefin-sans sans-serif";
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 42px;
+}
+.sectionProducts .slickSlider .sliders {
+  padding: 10px;
+}
+.sectionProducts .slickSlider .sliders .slider {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  padding: 10px;
+}
+.sectionProducts .slickSlider .sliders .slider .introSlider .img {
+  background-color: #F6F7FB;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+.sectionProducts .slickSlider .sliders .slider .introSlider .card-section {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.sectionProducts .slickSlider .sliders .slider .introSlider .card-section .name {
+  color: #FB2E86;
+}
+.sectionProducts .slickSlider .sliders .slider .card2 .card-section {
+  background-color: #2F1AC4;
+  color: white;
+  border-radius: 3px;
+}
+.sectionProducts .slickSlider .sliders .slider .card2 .card-section .name {
+  color: white;
+}/*# sourceMappingURL=Section1.css.map */

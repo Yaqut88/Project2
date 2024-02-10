@@ -1,0 +1,125 @@
+.Breadcrumb {
+  margin-bottom: 50px;
+  background-color: #F6F5FF;
+  height: 250px;
+  margin-top: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.Breadcrumb .title {
+  color: #1A0B5B;
+  font-family: "Josefin-sans sans-serif";
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 42px;
+  padding: 30px;
+}
+.Breadcrumb .breadcrumbItems {
+  padding-left: 35px;
+}
+.Breadcrumb .breadcrumbItems a {
+  text-decoration: none;
+  color: #000000;
+}
+.Breadcrumb .breadcrumbItems .active {
+  color: #FB2E86;
+}
+
+.blogSection .row .blogPage {
+  margin-top: 30px;
+}
+.blogSection .row .blogPage .blogimage {
+  margin: 0px;
+}
+.blogSection .row .blogPage .date {
+  margin-top: 10px;
+}
+.blogSection .row .blogPage .date .Date1 {
+  color: #151875;
+  border: 1px solid #FFE7F9;
+  background-color: #FFE7F9;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 600;
+  padding: 0px 25px 0px 25px;
+  margin-right: 10px;
+}
+.blogSection .row .blogPage .date .Date2 {
+  color: #151875;
+  border: 1px solid #FFECE2;
+  background-color: #FFECE2;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 600;
+  padding: 0px 25px 0px 25px;
+}
+.blogSection .row .blogPage .blognews {
+  margin-top: 12px;
+}
+.blogSection .row .blogPage .blognews .NewsFirst {
+  color: #151875;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 800;
+  font-family: "Josefin-Sans sans-serif";
+}
+.blogSection .row .blogPage .blognews .NewsSecond {
+  color: #8A8FB9;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+}
+.blogSection .row .blogPage .blognews .NewsThird {
+  color: #151875;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Lato";
+}
+.blogSection .row .blogPage2 .title {
+  color: #151875;
+  font-size: 22px;
+  font-weight: 600;
+}
+.blogSection .row .blogPage2 input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #BDBDD8;
+  color: rgba(21, 24, 117, 0.1019607843);
+  font-size: 14px;
+  font-weight: 400;
+}
+.blogSection .row .blogPage2 .CategoriesLists {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.blogSection .row .blogPage2 .CategoriesLists .firstList p {
+  color: #3F509E;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 600;
+}
+.blogSection .row .blogPage2 .CategoriesLists .firstList p:hover {
+  background-color: #F939BF;
+  color: #ffffff;
+  border-radius: 5px;
+  width: 122px;
+  height: 30px;
+  transition-duration: 3s;
+}
+.blogSection .row .blogPage2 .CategoriesLists .secondList p {
+  color: #3F509E;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 600;
+}
+.blogSection .row .blogPage2 .CategoriesLists .secondList p:hover {
+  background-color: #F939BF;
+  color: #ffffff;
+  border-radius: 5px;
+  width: 122px;
+  height: 30px;
+  transition-duration: 3s;
+}/*# sourceMappingURL=Blogpage.css.map */

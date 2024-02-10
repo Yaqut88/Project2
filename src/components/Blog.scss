@@ -1,0 +1,60 @@
+.Blog{
+    margin-top: 50px;
+    .title {
+        text-align: center;
+        color: #1A0B5B;
+        font-family: 'Josefin-Sans sans-serif';
+        font-weight: 900;
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .container{
+        .row{
+            .card{
+                margin: 20px;
+                .card-body{
+                    .date{
+                        span{
+                           margin-left: 50px;
+                           color: #151875;
+                        }
+                    }
+                    .card-title{
+                        margin-top: 20px;
+                        color: #151875;
+                    }
+                    .second{
+                        color: #FB2E86;
+                    }
+                    .card-text{
+                        color: #72718F;
+                        font-size: 16px;
+                    }
+                    a{
+                        color: #151875;
+                        font-size: 16px;
+                    }
+                    .secondA{
+                        color: #FB2E86;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+    
+  }
+   
+  @media (min-width: 501px) and (max-width: 700px) {
+    
+  }
+  @media (min-width: 701px) and (max-width: 900px) {
+    
+  }
+   
+  @media (min-width: 901px) and (max-width: 1100px) {
+    
+  }
+   

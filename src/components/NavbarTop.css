@@ -1,0 +1,25 @@
+.Navbar {
+  font-weight: 500;
+  margin-left: 10%;
+}
+.Navbar .Links {
+  display: flex;
+  justify-content: space-between;
+}
+.Navbar .Links li {
+  margin-right: 20px;
+}
+.Navbar .Links li :hover {
+  color: #FB2E86;
+}
+.Navbar .iconDiv {
+  width: 70px;
+  height: 48px;
+  background-color: #FB2E86;
+  color: white;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -12px;
+}/*# sourceMappingURL=NavbarTop.css.map */

@@ -1,0 +1,41 @@
+.MiniNavbar {
+  background-color: #7E33E0;
+  color: #F1F1F1;
+  height: auto;
+}
+.MiniNavbar .row {
+  padding-top: 7px;
+}
+.MiniNavbar .row .left {
+  display: flex;
+  flex-wrap: wrap;
+}
+.MiniNavbar .row .left span {
+  margin-left: 40px;
+}
+.MiniNavbar .row .right ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.MiniNavbar .row .right ul li {
+  margin-left: 25px;
+}
+
+@media (max-width: 300px) {
+  .MiniNavbar .row .left {
+    flex-direction: column;
+  }
+  .MiniNavbar .row .right ul {
+    flex-direction: column;
+    display: none;
+  }
+}
+@media (min-width: 300px) and (max-width: 500px) {
+  .MiniNavbar .row .left {
+    flex-direction: column;
+  }
+  .MiniNavbar .row .right ul {
+    flex-direction: column;
+    display: none;
+  }
+}/*# sourceMappingURL=MiniNavbar.css.map */

@@ -1,0 +1,143 @@
+.Products {
+  gap: 30px;
+  margin-top: 40px;
+}
+.Products .title {
+  text-align: center;
+  color: #1A0B5B;
+  font-family: "Josefin-sans sans-serif";
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 42px;
+}
+.Products .container {
+  margin-top: 40px;
+}
+.Products .container .row .cardSection {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.Products .container .row .img {
+  padding: 40px;
+  background-color: #F5F6F8;
+  text-align: center;
+}
+.Products .container .row .img img {
+  background-color: #F5F6F8;
+}
+.Products .container .row .sofaName {
+  text-align: center;
+  color: #151875;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Lato";
+}
+.Products .container .row .sofaPrice {
+  text-align: center;
+}
+.Products .container .row .sofaPrice .firstPrice {
+  color: #151875;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "Josefin-sans sans-serif";
+  font-weight: 600;
+}
+.Products .container .row .sofaPrice .secondPrice {
+  color: rgba(21, 24, 117, 0.3019607843);
+  font-size: 12px;
+  margin-left: 10px;
+  text-decoration: line-through;
+  font-family: "Josefin-sans sans-serif";
+}
+.Products .container .trendingProducts .firstSection {
+  color: rgba(49, 32, 138, 0.0509803922);
+  background-color: #FFF6FB;
+}
+.Products .container .trendingProducts .firstSection .allProducts {
+  margin-top: 30px;
+}
+.Products .container .trendingProducts .firstSection .allProducts span {
+  color: #151875;
+  font-size: 26px;
+  text-align: center;
+  font-family: "Josefin-sans sans-serif";
+  font-weight: 700;
+}
+.Products .container .trendingProducts .firstSection .allProducts a {
+  color: #FB2E86;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Josefin-sans sans-serif";
+}
+.Products .container .trendingProducts .firstSection img {
+  margin-left: 100px;
+}
+.Products .container .secondSection {
+  background-color: #EEEFFB;
+  margin-left: 20px;
+}
+.Products .container .secondSection .allProducts {
+  margin-top: 30px;
+}
+.Products .container .secondSection .allProducts span {
+  color: #151875;
+  font-size: 26px;
+  text-align: center;
+  font-family: "Josefin-sans sans-serif";
+  font-weight: 700;
+}
+.Products .container .secondSection .allProducts a {
+  color: #FB2E86;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Josefin-sans sans-serif";
+}
+.Products .container .secondSection img {
+  margin-top: 80px;
+  margin-left: 40px;
+}
+.Products .container .thirdSection {
+  margin-left: 70px;
+}
+.Products .container .thirdSection .d-flex {
+  margin-bottom: 25px;
+}
+.Products .container .thirdSection .d-flex .chair {
+  background-color: #F5F6F8;
+  padding: 10px;
+}
+.Products .container .thirdSection .d-flex .chairName {
+  font-size: 18px;
+  color: #151875;
+  font-family: "Josefin-sans sans-serif";
+  font-weight: 700;
+  margin-left: 10px;
+}
+.Products .container .thirdSection .d-flex .chairPrice {
+  font-size: 14px;
+  color: #151875;
+  font-family: "Josefin-sans sans-serif";
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+
+@media (max-width: 300px) {
+  .Products .container .trendingProducts .firstSection img {
+    margin-left: 0px;
+  }
+}
+@media (min-width: 300px) and (max-width: 500px) {
+  .Products .container .trendingProducts .firstSection img {
+    margin-left: 0px;
+  }
+  .Products .container .trendingProducts .secondSection {
+    margin-left: 0px;
+  }
+  .Products .container .trendingProducts .secondSection img {
+    margin-left: 0px;
+  }
+  .Products .container .trendingProducts .thirdSection {
+    margin-left: 0px;
+  }
+}/*# sourceMappingURL=Products.css.map */

@@ -1,0 +1,90 @@
+.latestProducts {
+  gap: 30px;
+}
+.latestProducts .title {
+  text-align: center;
+  color: #1A0B5B;
+  font-family: "Josefin-sans sans-serif";
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 42px;
+}
+.latestProducts .productTitles {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.latestProducts .productTitles ul {
+  display: flex;
+}
+.latestProducts .productTitles ul li {
+  padding: 15px;
+  font-family: "Loto";
+  font-size: 18px;
+  color: #151875;
+}
+.latestProducts .productTitles ul .active {
+  text-decoration: underline;
+  color: #FB4997;
+}
+.latestProducts .secondimage {
+  position: relative;
+}
+.latestProducts .product {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.latestProducts .product .icons {
+  position: absolute;
+  top: 40%;
+  color: #151875;
+}
+.latestProducts .product .saleImage {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+.latestProducts .product .productImage {
+  text-align: center;
+  background-color: #F7F7F7;
+}
+.latestProducts .product .secondImage {
+  background-color: #FFFFFF;
+}
+.latestProducts .product .products {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.latestProducts .product .productsName {
+  color: #151875;
+  font-family: "Josefin-sans sans-serif";
+  font-weight: 600;
+}
+.latestProducts .product .productsPrice span {
+  color: #151875;
+}
+.latestProducts .product .productsPrice .nextPrice {
+  color: #FB2448;
+  text-decoration: line-through;
+}
+
+@media (max-width: 300px) {
+  .latestProducts .title {
+    font-size: 25px;
+  }
+  .latestProducts .productTitles ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+}
+@media (min-width: 300px) and (max-width: 500px) {
+  .latestProducts .title {
+    font-size: 25px;
+  }
+  .latestProducts .productTitles ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=LatestProducts.css.map */

@@ -1,0 +1,31 @@
+.Shopex {
+  margin-top: 50px;
+}
+.Shopex .title {
+  text-align: center;
+  color: #1A0B5B;
+  font-family: "Josefin-sans sans-serif";
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 49px;
+  margin-bottom: 30px;
+}
+.Shopex .shopex {
+  text-align: center;
+  padding: 50px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  width: 280px;
+  margin: 20px;
+}
+.Shopex .shopex .cardTime {
+  font-size: 25px;
+  font-family: "Josefin-sans sans-serif";
+  color: #1A0B5B;
+  margin-top: 30px;
+  font-weight: 600;
+}
+.Shopex .shopex .cardText {
+  color: rgba(26, 11, 91, 0.3019607843);
+  font-family: "Lato";
+  font-size: 16px;
+}/*# sourceMappingURL=Shopex.css.map */

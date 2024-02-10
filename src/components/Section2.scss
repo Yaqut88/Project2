@@ -1,0 +1,139 @@
+.Section2{
+background-color: #F1F0FF;
+margin-top: 100px;
+position: relative;
+
+.container{
+    
+    .row{
+        
+        .sofaImg{
+            text-align: center;
+            z-index: 9;
+        }
+        .text{
+            padding: 5%;
+            .title{
+        font-family: 'Josefin-sans sans-serif';
+        font-size: 35px;
+        line-height: 50px;
+        color: #151875;
+        font-weight: 600;
+        // padding: 10px 100px;
+            }
+            .list{
+                margin-top: 25px;
+                ul{
+                    li{
+                        list-style-type: circle;
+                        color: #ACABC3;
+                        margin-top: 15px;
+                        font-family: 'Lato';
+                    }
+                }
+            }
+            .buttonText{
+                
+                .button{
+                    width: 160px;
+                    height: 50px;
+                    background-color: #FB2E86;
+                    color: #FFFFFF;
+                    border: none;
+                    outline: none;
+        font-family: 'Josefin-sans sans-serif';
+      
+                }
+                .button2{
+                    border: none;
+                    outline: none;
+                    background-color: #F1F0FF;
+                    margin-top: -15px;
+                span{
+                    color: #151875;
+                    font-size: 16px;
+        font-family: 'Josefin-sans sans-serif';
+        font-weight: 600;      
+                }
+            }
+            }
+        }
+
+    }
+}
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+    .Section2{
+.container{
+    .row{
+        .sofaImg{
+            img{
+                width: 200px;
+            }
+        }
+    }
+}
+    }
+}
+ 
+@media (min-width: 501px) and (max-width: 700px) {
+    .Section2{
+        .container{
+            .row{
+                .sofaImg{
+                    img{
+                        width: 300px;
+                    }
+                }
+            }
+        }
+            }
+}
+@media (min-width: 701px) and (max-width: 900px) {
+    .Section2{
+        .container{
+            .row{
+                .sofaImg{
+                    img{
+                        width: 400px;
+                    }
+                }
+            }
+        }
+            }
+}
+ 
+@media (min-width: 901px) and (max-width: 1100px) {
+    .Section2{
+        .container{
+            .row{
+                .sofaImg{
+                    img{
+                        width: 400px;
+                    }
+                }
+            }
+        }
+            }
+}
+@media (max-width: 300px){
+   .Section2{
+    .container{
+        .row{
+            .sofaImg{
+                img{
+                    width: 180px;
+                }
+            }
+            .text{
+                .title{
+                    font-size: 20px;
+                    padding: 3px;
+
+                }
+            }
+        }
+    }
+   }
+  }

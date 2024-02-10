@@ -1,0 +1,83 @@
+.Breadcrumb {
+  margin-bottom: 50px;
+  background-color: #F6F5FF;
+  height: 250px;
+  margin-top: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.Breadcrumb .title {
+  color: #1A0B5B;
+  font-family: "Josefin-sans sans-serif";
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 42px;
+  padding: 30px;
+}
+.Breadcrumb .breadcrumbItems {
+  padding-left: 35px;
+}
+.Breadcrumb .breadcrumbItems a {
+  text-decoration: none;
+  color: #000000;
+}
+.Breadcrumb .breadcrumbItems .active {
+  color: #FB2E86;
+}
+
+.contactSection {
+  display: flex;
+  justify-content: center;
+}
+.contactSection .row .contact {
+  padding: 40px;
+  box-shadow: 0px 0px 25px 10px #F8F8FB;
+  width: 450px;
+  height: 450px;
+}
+.contactSection .row .contact .contactTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.contactSection .row .contact .contactTitle p {
+  font-family: "Josefin-sans sans-serif";
+  font-size: 32px;
+  line-height: 37.5px;
+  font-weight: 700;
+}
+.contactSection .row .contact .contactTitle span {
+  color: #9096B2;
+  font-family: "Lato";
+  font-size: 17px;
+  font-weight: 400;
+}
+.contactSection .row .contact form input {
+  border: 2px solid #C2C5E1;
+  width: 100%;
+  height: 40px;
+  color: #9096B2;
+  padding: 15px;
+}
+.contactSection .row .contact form .spanFirst {
+  color: #9096B2;
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.contactSection .row .contact form .spanSecond {
+  color: #9096B2;
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.contactSection .row .contact form button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  color: #FFFFFF;
+  background-color: #FB2E86;
+  font-size: 18px;
+}/*# sourceMappingURL=Contact.css.map */

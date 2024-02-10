@@ -1,0 +1,61 @@
+.Footer{
+    background-color: #EEEFFB;
+    .container{
+      padding-top: 30px;
+        .footerTop{
+            .footer1{
+        h1{
+            font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+        }
+        input{
+            width: 240px;
+            height: 39px;
+            border-radius: 3px;
+            border: none;
+            color: #8A8FB9; 
+            background-color: #FFFFFF;
+        }
+        button{
+            background-color: #FB2E86;
+            color: #EEEFFB;
+            border: none;
+            outline: none;
+            width: 135px;
+            height: 39px;
+            border-radius: 3px;
+        }
+        span{
+            color: #8A8FB9;
+        }
+
+    }
+    .footer2, .footer3, .footer4{
+        h3{
+            font-family: 'Josefin Sans', sans-serif;
+        }
+        p{
+            color: #8A8FB9;
+            
+        }}
+      
+      
+    }
+    }
+}
+
+
+@media (min-width: 300px) and (max-width: 500px) {
+    
+}
+ 
+@media (min-width: 501px) and (max-width: 700px) {
+  
+}
+@media (min-width: 701px) and (max-width: 900px) {
+  
+}
+ 
+@media (min-width: 901px) and (max-width: 1100px) {
+  
+}

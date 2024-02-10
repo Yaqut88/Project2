@@ -1,0 +1,79 @@
+.Section3{
+    margin-top: 50px;
+   .third{
+    background-image: url('./img/Rectangle 102.png');
+    // background-size: contain;
+    background-repeat: no-repeat;
+    height: auto;
+    padding: 50px;
+    
+    .section3 {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+          color: #1A0B5B;
+          font-family: 'Josefin-sans sans-serif';
+          font-weight: 900;
+          font-size: 42px;
+          line-height: 70px;
+          margin-top: 40px;
+      }
+      .sectionButton  { 
+        text-align: center;
+        button{
+            margin-top: 30px;
+        width: 200px;
+        height: 50px;
+        background-color: #FB2E86;
+        color: #FFFFFF;
+        border: none;
+        outline: none;
+        border-radius: 2px;
+        text-align: center;
+    }
+}
+   }
+}
+@media (min-width: 768px) and (max-width: 950px) {
+.Section3{
+    // background-size: cover;
+    .section3{
+color: white;
+    }
+}
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+    .Section3{
+        .third{
+            .section3{
+                font-size: 18px;
+                line-height: 25px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+ 
+@media (min-width: 501px) and (max-width: 700px) {
+  
+}
+@media (min-width: 701px) and (max-width: 900px) {
+  
+}
+ 
+@media (min-width: 901px) and (max-width: 1100px) {
+  
+}
+@media(max-width: 300px){
+    .Section3{
+        .third{
+            .section3{
+                font-size: 16px;
+line-height: 20px;
+margin-top: -10px;
+            }
+        }
+    }
+}

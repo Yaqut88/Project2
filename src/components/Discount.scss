@@ -1,0 +1,122 @@
+.Discount{
+    box-sizing: border-box;
+    margin-top: 50px;
+
+        .title {
+            text-align: center;
+            color: #1A0B5B;
+            font-family: 'Josefin-sans sans-serif';
+            font-weight: 900;
+            font-size: 42px;
+            line-height: 42px;
+        }
+        .listItems{
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            ul{
+            display: flex;
+            li{
+                padding: 15px;
+                font-family: "Loto";
+                font-size: 18px;
+        color: #151875;
+
+            }
+            .active{
+                text-decoration: underline;
+                color: #FB4997;
+            }
+          }
+        }
+        .container{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+            .row{
+                .discountItems{
+                    padding: 80px 100px;
+h3{
+    color: #151875;
+}
+.redTitle{
+    color: #FB2E86;
+    font-size: 21px;
+}
+span{
+    color: #B7BACB;
+
+}
+.listItems1{
+    display: flex;
+    margin-top: 10px;
+    ul{
+        list-style: none;
+        li:before {
+                content: '✓';
+              }
+            color: #B8B8DC;
+            font-family: "Lato";
+        }
+    
+}
+.discountButton   button{
+    width: 200px;
+    height: 50px;
+    background-color: #FB2E86;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+button:hover{
+    color: #FB2E86;
+    background-color: #B7BACB;
+}
+                }
+                
+            }
+        }
+}
+
+
+@media  (max-width:300px) {
+    
+}
+@media (min-width: 300px) and (max-width: 500px) {
+    .discountItems2{
+        img{
+            width: 170px;
+        }
+    }
+}
+ 
+@media (min-width: 501px) and (max-width: 700px) {
+    .discountItems2{
+        img{
+            width: 250px;
+        }
+    }
+}
+@media (min-width: 701px) and (max-width: 900px) {
+    .discountItems2{
+        img{
+            width: 300px;
+        }
+    }
+}
+ 
+@media (min-width: 901px) and (max-width: 1100px) {
+    .discountItems2{
+        img{
+            width: 400px;
+        }
+    }
+}
+@media (max-width: 300px){
+    .discountItems2{
+        img{
+            width: 180px;
+        }
+    }
+  }

@@ -1,0 +1,99 @@
+.Breadcrumb {
+  margin-bottom: 50px;
+  background-color: #F6F5FF;
+  height: 250px;
+  margin-top: 50px;
+}
+.Breadcrumb .title {
+  color: #1A0B5B;
+  font-family: "Josefin-sans sans-serif";
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 42px;
+  padding: 30px;
+}
+.Breadcrumb .breadcrumbItems {
+  padding-left: 35px;
+}
+.Breadcrumb .breadcrumbItems a {
+  text-decoration: none;
+  color: #000000;
+}
+.Breadcrumb .breadcrumbItems .active {
+  color: #FB2E86;
+}
+
+.productDetails {
+  padding: 10px;
+  box-shadow: 0px 0px 25px 10px #F6F4FD;
+}
+.productDetails .row .productImages div img {
+  padding: 8px;
+  margin-left: 15px;
+}
+.productDetails .row .productSection .ptag {
+  color: #0D134E;
+  font-family: "Josefin-sans sans-serif";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.productDetails .row .productSection .productsPrice .productPrice1 {
+  color: #151875;
+  margin-right: 15px;
+}
+.productDetails .row .productSection .productsPrice .productPrice2 {
+  color: #FB2E86;
+  text-decoration: line-through;
+}
+.productDetails .row .productSection .color {
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Josefin-Sans sans-serif";
+  color: #151875;
+}
+.productDetails .row .productSection .spantag {
+  color: #A9ACC6;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.productDetails .row .productSection .addtocart {
+  color: #151875;
+  margin-top: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.productDetails .row .productSection .productSpanTag {
+  color: #151875;
+  font-weight: 600;
+}
+
+.productInfojsx {
+  margin-top: 100px;
+  background-color: #F9F8FE;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.productInfojsx .row .productItems ul {
+  display: flex;
+  flex-direction: row;
+  color: #151875;
+  flex-wrap: wrap;
+}
+.productInfojsx .row .productItems ul li {
+  margin-right: 40px;
+  font-weight: 600;
+}
+.productInfojsx .row .productItems ul .firstLi {
+  text-decoration: underline;
+}
+.productInfojsx .row .details h4 {
+  color: #151875;
+  font-family: "Josefin-sans sans-serif";
+}
+.productInfojsx .row .details p {
+  color: #A9ACC6;
+  font-size: 16px;
+  font-family: "Josefin-sans sans-serif";
+}/*# sourceMappingURL=ProductDetails.css.map */
